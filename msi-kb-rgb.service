@@ -1,0 +1,11 @@
+[Unit]
+Description=MSI Keyboard RGB - Restore LED config
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /root/msi-kb-rgb-apply.py
+Environment=HOME=/root
+
+[Install]
+WantedBy=multi-user.target sleep.target

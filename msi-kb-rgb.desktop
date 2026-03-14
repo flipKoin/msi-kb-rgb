@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MSI Keyboard RGB
+Comment=Control MSI Cyborg 17 keyboard LED colors and effects
+Exec=pkexec /usr/bin/python3 /root/msi-kb-rgb-gui.py
+Icon=keyboard-brightness
+Terminal=false
+Type=Application
+Categories=Utility;Settings;HardwareSettings;
+Keywords=keyboard;rgb;led;msi;backlight;
